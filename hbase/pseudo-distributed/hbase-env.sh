@@ -136,3 +136,6 @@ export HBASE_REGIONSERVER_OPTS="$HBASE_REGIONSERVER_OPTS -XX:PermSize=128m -XX:M
 # HBASE_ROOT_LOGGER=INFO,DRFA
 # The reason for changing default to RFA is to avoid the boundary case of filling out disk space as 
 # DRFA doesn't put any cap on the log size. Please refer to HBase-5655 for more context.
+
+# http://askubuntu.com/questions/599081/hbase-not-connecting-to-zookeeper
+# export HBASE_MANAGES_ZK=true  
